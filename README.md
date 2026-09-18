@@ -8,6 +8,7 @@ There are PDFs, audios and screenshots placed in the repo for further exploring 
 
 ***File below is classified under: DIRECTIVE 1104 · Roghbrol Gravitic Directorate · Orbital Remediation Command · Sol III***
 > ACCESSING... PROJECT: UNTERRAPED MANKIND · Cert. GR-4407 · Tether Class II
+> 
 > Ah, humanity. Another civilization that has discovered rockets and immediately started throwing garbage into orbit. Failure upon failure in launching their spacecraft, and their decaying satellites are slowly sabotaging their own effort with the amount of junk now orbiting their planet.
 >
 > In the far side of Andromeda, the Roghbrol's greatest minds watched on. Humanity would mark the 5,329,164,291th race that fails to reach spacefaring technology; and oh how they've yearned for fellow intelligent species for millennias. Thus Roghbrol embarked on a new mission, dubbed:
