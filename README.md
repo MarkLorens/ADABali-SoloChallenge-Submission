@@ -5,6 +5,8 @@ A Unity project about orbital debris, an unsettling "mission," and a menu screen
 > `DIRECTIVE 1104 · Roghbrol Gravitic Directorate · Orbital Remediation Command · Sol III`
 > `PROJECT: UNTERRAPED MANKIND · Cert. GR-4407 · Tether Class II`
 
+There are PDFs, audios and screenshots placed in the repo for further exploring if desired.
+
 ## Premise
 
 > Ah, humanity. Another civilization that has discovered rockets and immediately started throwing garbage into orbit. Failure upon failure in launching their spacecraft, and their decaying satellites are slowly sabotaging their own effort with the amount of junk now orbiting their planet.
@@ -17,7 +19,7 @@ A Unity project about orbital debris, an unsettling "mission," and a menu screen
 >
 > P.S: Remember to not accidentally fling that into the planet itself. And make it seem like an accident. They're not ready for our presence.
 
-The player is cast as an ancient, vastly superior alien intermediary — not a hero, not even really *for* humanity — quietly tidying Earth's orbital debris from behind the scenes. The comedy is structural, not written: an incomprehensibly advanced species treats humanity's entire spacefaring effort as a rounding error, and the UI never once breaks character to let the player in on the joke.
+The player is cast as an ancient, vastly superior alien intermediary — not a hero, not even really *for* humanity — quietly tidying Earth's orbital debris from behind the scenes. The comedy is purely written and intentionally never acknowledged: an incomprehensibly advanced species treats humanity's entire spacefaring effort as a rounding error, and the UI never once breaks character to let the player in on the joke.
 
 ## Design intent
 
@@ -71,7 +73,7 @@ From the same design pass, the standing rules for anything added to the scene go
 - **Earth is the focal point** — everything else, including the Sun, frames it rather than competing with it.
 - **One true light source** (the Sun) — no fill lighting that would flatten the "vast, dim" read.
 - **Realism-style graphics** for a believable space, but a **limited, reusable visual vocabulary for asteroids/debris** rather than hand-authoring every unique shape — variation without one-off cost.
-- **Roghbrol (and anything alien) should never read as silly** — powerful, ancient, advanced, unbothered by human concerns. Reference points from the brief: Enigma (Dota 2), Algalon (WoW), Archon (StarCraft 2), Nocturne (LoL), Unbidden (Stellaris) — cosmic-scale, not cute-alien.
+- **Roghbrol (and anything alien) should never read as silly** — powerful, ancient, advanced, unbothered by human concerns. Reference points from the brief: Enigma (Dota 2), Algalon (WoW), Archon (StarCraft 2), Nocturne (LoL), Unbidden (Stellaris) — cosmic-scale, not cute-alien. *NOT YET IMPLEMENTED*
 - **Accurate per-planet size/order/coloring** so the solar system reads correctly without needing labels.
 - **Quiet atmosphere** — restraint over spectacle in the sound design.
 
@@ -85,21 +87,6 @@ Every font in the project ships under the **SIL Open Font License 1.1**, chosen 
 | Big Shoulders Display | Title display | OFL 1.1 (The Big Shoulders Project Authors) |
 | Lucius Cipher | Alien glitch font | OFL 1.1 (GGBotNet) |
 
-## Project structure
-
-```
-Assets/_Project/
-├── Art/           # Roghbrol insignia, planet ring/cloud shaders
-│   └── Planets/   # Ring + cloud shell shaders, planet materials/textures
-├── Audio/         # Ambient bed, menu theme, UI sfx
-├── Fonts/         # IBM Plex Mono, Big Shoulders Display, Lucius Cipher (all OFL)
-├── Prefabs/       # CelestialBody
-└── Scripts/       # MainMenuController, AlienScriptGlitch, CelestialBody, Gravity,
-                   # MainMenuCameraRig, RingMeshGenerator, FlyCamera, FollowTransform
-```
-
-`FlyCamera.cs` is a debug-only free camera (WASD + right-mouse look) for flying the solar system scene during development — not used in the actual menu flow.
-
 ## Tech
 
 - Unity 6, Universal Render Pipeline.
@@ -108,4 +95,4 @@ Assets/_Project/
 
 ## Credits
 
-Built by the team behind *Kessler's Little Helper*. Design direction and deliverables tracked in the team's shared design docs (storyboard, core-loop, and visual-pillar passes); this README summarizes the "why" behind what's in the scene so far.
+Built by... Me! Design direction and deliverables tracked in the team's shared design docs (storyboard, core-loop, and visual-pillar passes); this README summarizes the "why" behind what's in the scene so far.
