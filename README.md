@@ -29,7 +29,7 @@ This project is **not** primarily a gameplay prototype. At this stage the explic
 2. **The emotional experience** — the player should feel the scale, via audio and how small Earth looks against the Sun sharing the frame.
 3. **The identity** — *"Alien. Sumn' ain't right."* Via: an alien glyph/flickering title, and a second, more subtle layer carried by audio.
 
-Underneath all three sits one non-negotiable: **the player should experience the grandeur and seriousness of an epic science-fiction mission, while constantly being reminded that the mission itself is absurd.** Every visual and audio choice is filtered through "does this read as vast/grandiose/superior/high-stakes" *and* "does it still let the absurdity leak through" — imagine the player-character as the kind of entity that would casually think *"these human creatures' existence merely adds verisimilitude to [our] stupid [mission]."* Big, dim-one-source-light space sells the first half; the UI's deadpan bureaucratic tone (directive numbers, certification stamps, "Field Prototype" build labels) carries the second.
+Underneath all three sits one non-negotiable: **the player should experience the grandeur and seriousness of an epic science-fiction mission, while constantly being reminded that the mission itself is absurd.** Every visual and audio choice is filtered through "does this read as vast/grandiose/superior/high-stakes" *and* "does it still let the absurdity leak through"* Big, dim-one-source-light space sells the first half; the UI's deadpan bureaucratic tone (directive numbers, certification stamps, "Field Prototype" build labels) carries the second.
 
 ## Current state
 
